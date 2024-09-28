@@ -1,0 +1,14 @@
+/* src/index.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer base {
+    * {
+        @apply box-border m-0 p-0;
+    }
+}
+
+body {
+    @apply text-white bg-custom-bg bg-blend-multiply min-w-[100vw] min-h-[100vh];
+}
